@@ -1,0 +1,9 @@
+__test__/
+src/
+.vscode/
+.github/
+.eslintignore
+.eslintrc
+.prettierrc
+*.config.js
+tsconfig.json

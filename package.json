@@ -10,7 +10,8 @@
     "packages/*"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:all": "yarn workspaces foreach -pt run build",
+    "publish:all": "yarn workspaces foreach -pt --no-private run publish"
   },
   "author": "jiyunpark",
   "license": "ISC",

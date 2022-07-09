@@ -1,10 +1,8 @@
-import { hello } from './hello';
+import hello from './hello';
 
 function bye(){
     const greeting = hello();
     return `${greeting} and bye`;
 }
 
-export {
-    bye
-}
+export default bye;

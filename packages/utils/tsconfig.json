@@ -1,11 +1,15 @@
 {
   "compilerOptions": {
-    "target": "es5",                                  
+    "target": "es5",     
+    "outDir": "./dist",                             
     "module": "esnext",                               
     "esModuleInterop": true,                            
-    "forceConsistentCasingInFileNames": true,            
-    "strict": true,                                      
+    "forceConsistentCasingInFileNames": true,                                      
     "skipLibCheck": true,
-    "jsx": "react"                     
-  }
+    "jsx": "react",   
+    "declaration": true,
+    "sourceMap": true,
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist", "__tests__", "./**/*.test.(js|ts)$", "./*.config.js"]
 }

@@ -2,6 +2,4 @@ function hello(){
     return 'hello world!';
 }
 
-export {
-    hello
-}
+export default hello;
